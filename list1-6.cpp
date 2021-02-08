@@ -17,5 +17,5 @@ void Accounting::earn(long amnt)
 
 void Accounting::spend(long ant)
 {
-    crnt_asset -- amnt;
+    crnt_asset -= amnt;
 }
