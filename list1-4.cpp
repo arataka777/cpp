@@ -35,10 +35,10 @@ void Accounting::spend(long amnt)
     crnt_asset -= amnt;
 }
 
-it main()
+int main()
 {
     Accounting nakano("中野隼人", 1000);
-    Accounting("山田宏文", 200);
+    Accounting yamada("山田宏文", 200);
 
     nakano.spend(200);
     yamada.earn(100);
